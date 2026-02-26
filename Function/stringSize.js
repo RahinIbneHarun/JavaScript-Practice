@@ -1,0 +1,9 @@
+function evenSizedString(str){
+    const size =str.length;
+    if(size%2==0){
+        console.log('even size');
+    }else{
+        console.log('Odd Size');
+    }
+}
+evenSizedString('Dhaka');

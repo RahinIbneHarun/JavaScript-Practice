@@ -1,0 +1,13 @@
+const potato=38;
+const onion = 62;
+const shirt =500;
+const pant =120;
+
+function add (price1,price2){
+    return price1+price2;
+}
+
+const bill1 = add(potato,onion);
+const bill2 =add(shirt,pant);
+const final =add(bill1,bill2);
+console.log(final);
